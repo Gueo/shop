@@ -4,7 +4,7 @@
  */
 class UserController extends Controller{
 	function actionLogin(){
-		//renderPatial()
-		$this -> renderPatial('login');
+		//renderpartial()		
+		$this -> renderpartial('login');
 	}
 }
