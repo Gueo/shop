@@ -7,4 +7,8 @@ class UserController extends Controller{
 		//renderpartial()		
 		$this -> renderpartial('login');
 	}
+
+	function actionRegister(){
+		$this -> renderpartial('register');
+	}
 }
